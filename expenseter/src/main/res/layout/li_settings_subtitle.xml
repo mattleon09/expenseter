@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/AdapterItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@null"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/Text.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Settings item" />
+
+    <TextView
+        android:id="@+id/subtitleTextView"
+        style="@style/Text.Caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Settings value" />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/settingsContainerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?colorPrimary"
+        android:elevation="@dimen/elevation_sub_header"
+        android:gravity="center_vertical"
+        android:minHeight="?android:actionBarSize"
+        android:paddingBottom="@dimen/space_normal"
+        android:paddingLeft="@dimen/keyline"
+        android:paddingRight="@dimen/keyline"
+        android:paddingTop="@dimen/space_normal"
+        tools:ignore="RtlHardcoded,UnusedAttribute">
+
+        <TextView
+            style="@style/Text.Subhead"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/l_refresh_rates_daily"
+            android:textColor="?android:textColorPrimaryInverse" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/autoUpdateCurrenciesSwitch"
+            style="@style/Widget.AppCompat.CompoundButton.Switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/settingsContainerView"
+        android:layout_below="@+id/toolbar">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                style="@style/AdapterView" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <com.mattleo.finance.ui.common.views.EmptyContainerView
+            android:id="@+id/emptyContainerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+</RelativeLayout>

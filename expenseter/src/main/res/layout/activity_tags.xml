@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            style="@style/AdapterView" />
+
+        <com.mattleo.finance.ui.common.views.EmptyContainerView
+            android:id="@+id/emptyContainerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <include
+        android:id="@+id/editButtonsContainerView"
+        layout="@layout/include_edit_buttons" />
+
+</LinearLayout>

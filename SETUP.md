@@ -1,0 +1,1 @@
+- Add crashlytics.properties to expenseter module.

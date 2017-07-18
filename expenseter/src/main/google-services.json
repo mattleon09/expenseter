@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "667904943007",
+    "project_id": "expenseter-d02fe"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667904943007:android:5143d6da99e69206",
+        "android_client_info": {
+          "package_name": "com.mattleo.finance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667904943007-emjfou2aaba7ogcn03gr571cc0eh19m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUaVLG03rrAYzoN7Cb9334DG3Nisqxo7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
