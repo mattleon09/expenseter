@@ -125,7 +125,7 @@
     <string name="l_delete_short">DEL</string>
     <string name="l_delete_confirmation">Naozaj chcete odstrániť tieto záznamy?</string>
     <string name="l_about_new_issue">Chceli by ste nahlásiť problém či požiadať o nové funkcie? Prečítajte si prosím informácie.</string>
-    <string name="l_about_rate">Páči sa vám Financius? Ohodnoťte ho v obchode Google Play.</string>
+    <string name="l_about_rate">Páči sa vám Expenseter? Ohodnoťte ho v obchode Google Play.</string>
     <string name="l_about_community">Chcete vedieť čo sa chystá? Pridajte sa ku komunite.</string>
     <string name="l_about_translate">Pomôžte s prekladom do vášho jazyka.</string>
     <string name="error_unlock_password">Heslo sa nezhoduje. Skúste to znova.</string>

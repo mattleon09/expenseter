@@ -100,6 +100,8 @@ public class FilesActivity extends BaseActivity {
 
         mSelectedFile = null;
         dialog = new ProgressDialog(this);
+
+        loadData();
     }
 
     @Override

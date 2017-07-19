@@ -70,7 +70,7 @@ public class DataFragment extends BaseFragment implements View.OnClickListener {
         login_dbx.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
                 Activity activity = getActivity();
-                Auth.startOAuth2Authentication(activity, ExportActivity.UNIQUE_DROPBOX_API_ID);
+                Auth.startOAuth2Authentication(activity, getString(R.string.dbx_app_key));
             }
         });
         backup_B.setOnClickListener(this);
@@ -103,7 +103,7 @@ public class DataFragment extends BaseFragment implements View.OnClickListener {
     @Override public void onClick(View view) {
         switch (view.getId()) {
             case R.id.login_dbx:
-                Auth.startOAuth2Authentication(getActivity(),ExportActivity.UNIQUE_DROPBOX_API_ID);
+                Auth.startOAuth2Authentication(getActivity(), getString(R.string.dbx_app_key));
 
 
 
@@ -205,7 +205,7 @@ public class DataFragment extends BaseFragment implements View.OnClickListener {
                     .show(getChildFragmentManager(), FRAGMENT_DESTINATION);
         } else if(requestCode  == REQUEST_LOGIN_DROPBOX) {
             SharedPreferences prefs = getActivity().getSharedPreferences("dropbox-expenseter", MODE_PRIVATE);
-            Auth.startOAuth2Authentication(getActivity(), ExportActivity.UNIQUE_DROPBOX_API_ID);
+            Auth.startOAuth2Authentication(getActivity(), getString(R.string.dbx_app_key));
             prefs.edit().putBoolean("auto-login-dbx", true).apply();
         }
     }

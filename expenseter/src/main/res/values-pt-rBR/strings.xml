@@ -125,9 +125,9 @@
     <string name="l_delete_short">DEL</string>
     <string name="l_delete_confirmation">Tem Certeza que Deseja Excluir?</string>
     <string name="l_about_new_issue">Problemas e Pedidos de Novas Funcionalidades. Primeiro leia o arquivo Leia-me.</string>
-    <string name="l_about_rate">Gostou do Financius? Avalie-nos no Google Play.</string>
+    <string name="l_about_rate">Gostou do Expenseter? Avalie-nos no Google Play.</string>
     <string name="l_about_community">Quer ver o que vem pela Frente? Participe da Comunidade.</string>
-    <string name="l_about_translate">Você pode ajudar a traduzir o Financius para o seu idioma.</string>
+    <string name="l_about_translate">Você pode ajudar a traduzir o Expenseter para o seu idioma.</string>
     <string name="error_unlock_password">A Senha não corresponde. Tente novamente.</string>
     <string name="c_food">Comida</string>
     <string name="c_leisure">Lazer</string>

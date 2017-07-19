@@ -57,8 +57,8 @@ public class ExportActivity extends BaseActivity {
     private static final String UNIQUE_GOOGLE_API_ID = ExportActivity.class.getName();
 
     public static final String FRAGMENT_DROPBOX_API = "FRAGMENT_DROPBOX_API";
-    public static final String UNIQUE_DROPBOX_API_ID  = "gpgftxdz3hruiuc";
-    private static final String DEBUG_ACCESS_TOKEN = "ymUxtGwqCgAAAAAAAAAADKbm03UEJU93rs7IJYgj2fNVMEPe8YMv-EAkb0NaPYSS";
+
+
 
     private static final String STATE_IS_PROCESS_STARTED = "STATE_IS_PROCESS_STARTED";
     private static final String STATE_IS_DIRECTORY_REQUESTED = "STATE_IS_DIRECTORY_REQUESTED";
@@ -100,7 +100,7 @@ public class ExportActivity extends BaseActivity {
             dialog.setMessage("Loading");
             dialog.show();
 
-            Auth.startOAuth2Authentication(this, UNIQUE_DROPBOX_API_ID);
+            Auth.startOAuth2Authentication(this,  getString(R.string.dbx_app_key));
 
             SharedPreferences prefs = getSharedPreferences("dropbox-expenseter", MODE_PRIVATE);
             String uniqueClientId = prefs.getString("access-token", null);

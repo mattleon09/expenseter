@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name" translatable="false">Financius</string>
+    <string name="app_name" translatable="false">Expenseter</string>
     <string name="google_drive" translatable="false">Google Drive</string>
     <string name="dropbox" translatable="false">Dropbox</string>
-    <string name="DBX_APP_KEY" translatable="false">gpgftxdz3hruiuc</string>
+    <string name="dbx_app_key" translatable="false">ay2r0lj8gz36vf0</string>
     <string name="divide" translatable="false">÷</string>
     <string name="multiply" translatable="false">×</string>
     <string name="plus" translatable="false">+</string>

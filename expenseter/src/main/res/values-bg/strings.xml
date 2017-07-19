@@ -125,8 +125,8 @@
     <string name="l_delete_short">Изтрий</string>
     <string name="l_delete_confirmation">Наистина ли искате да изтриете?</string>
     <string name="l_about_new_issue">По въпроси за проблеми и нови функции първо прочетете файла README.</string>
-    <string name="l_about_rate">Харесвате Financius? Оценете го в Google Play.</string>
-    <string name="l_about_community">Искате да знаете какво следва? Присъединете се към общността Financius.</string>
+    <string name="l_about_rate">Харесвате Expenseter? Оценете го в Google Play.</string>
+    <string name="l_about_community">Искате да знаете какво следва? Присъединете се към общността Expenseter.</string>
     <string name="l_about_translate">Можете да помогнете за превода на приложението на вашия език.</string>
     <string name="error_unlock_password">Паролата не съвпада. Опитайте отново.</string>
     <string name="c_food">Храна</string>
